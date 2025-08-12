@@ -1,0 +1,611 @@
+@font-face {
+    font-family: 'D-DIN';
+    src: url('assets/font/D-DIN.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    src: url('assets/font/D-DIN-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'D-DIN', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    margin: 0;
+    background-color: black;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.parent_nav nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_item_list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+}
+
+.spacex_svg {
+    width: 140px;
+    height: auto;
+    fill: white;
+}
+
+.header_button {
+    display: inline-flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 10px;
+    opacity: 0.8;
+    background: transparent;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+.time_text {
+    font-size: 12px;
+}
+
+.nav-items {
+    color: white;
+    opacity: 0.9;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-items:hover {
+    opacity: 1;
+}
+
+.hero_div {
+    display: flex;
+    position: relative;
+}
+
+.mars_rotation_bg {
+    width: 100%;
+    height: auto;
+}
+
+.video_overlay_text {
+    position: absolute;
+    line-height: 15px;
+    margin-top: 260px;
+    margin-left: 90px;
+    letter-spacing: 4px;
+    z-index: 1;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.video_overlay_para {
+    font-weight: 100;
+    margin-top: -10px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: normal;
+}
+
+.explore_button {
+    margin-top: 15px;
+    border-radius: 5px;
+    display: inline flex;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 100;
+    background: transparent;
+    color: white;
+    padding: 18px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.341);
+    transition: all 0.3s ease;
+}
+
+.explore_button:hover {
+    background-color: white;
+    color: black;
+}
+
+.explore_button:hover svg path {
+    fill: black;
+}
+
+.section2 {
+    position: relative;
+}
+
+.rocket_launch_img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section2_text {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -800px;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.section2_para {
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: -30px;
+}
+
+.section3 {
+    position: relative;
+}
+
+.mars_img_static {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section3_text {
+    opacity: 90%;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -760px;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.section3_para {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: -35px;
+}
+
+.more_info_section3 {
+    font-size: 12px;
+}
+
+.more_info_section3_rightside {
+    font-size: 14px;
+    margin-left: 300px;
+}
+
+.hrtag_section3 {
+    opacity: 30%;
+}
+
+.more_info_section3_rightside2 {
+    font-size: 13px;
+    margin-left: 330px;
+}
+
+.more_info_section3_rightside3 {
+    font-size: 13px;
+    margin-left: 290px;
+}
+
+.more_info_section3_rightside4 {
+    font-size: 13px;
+    margin-left: 200px;
+}
+
+.more_info_section3_rightside5 {
+    font-size: 13px;
+    margin-left: 370px;
+}
+
+.section4 {
+    position: relative;
+}
+
+.rocket_img_static {
+    display: block;
+    width: 130%;
+    height: auto;
+    margin-left: -15%;
+}
+
+.section4_text {
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 100px;
+    letter-spacing: 4px;
+    z-index: 1;
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.section4_para {
+    font-weight: 100;
+    line-height: 15px;
+    margin-top: -10px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: normal;
+}
+
+.section4_button {
+    margin-top: 15px;
+    border-radius: 5px;
+    display: inline flex;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 100;
+    background: transparent;
+    color: white;
+    padding: 18px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.341);
+    transition: all 0.3s ease;
+}
+
+.section4_button:hover {
+    background-color: white;
+    color: black;
+}
+
+.section5 {
+    position: relative;
+}
+
+.circular_motion_img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section6 {
+    position: relative;
+}
+
+.rocket_approaching_mars {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section6_text {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 100px;
+    letter-spacing: 4px;
+    z-index: 1;
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.section6_para {
+    font-weight: 100;
+    margin-top: -10px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: normal;
+}
+
+.section6_button {
+    margin-top: 15px;
+    border-radius: 5px;
+    display: inline flex;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 100;
+    background: rgba(0, 0, 0, 0.304);
+    color: white;
+    padding: 18px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.341);
+    transition: all 0.3s ease;
+}
+
+.section6_button:hover {
+    background-color: white;
+    color: black;
+}
+
+.section7 {
+    position: relative;
+}
+
+.humanoid_robot_on_mars {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section7_text {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -750px;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.section7_para {
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: -30px;
+}
+
+.section7_button {
+    margin-top: 15px;
+    border-radius: 5px;
+    display: inline flex;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 100;
+    background: rgba(0, 0, 0, 0.304);
+    color: white;
+    padding: 18px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.341);
+    transition: all 0.3s ease;
+}
+
+.section7_button:hover {
+    background-color: white;
+    color: black;
+}
+
+.section8 {
+    position: relative;
+}
+
+.astronaut_in_rocket {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section8_text {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 150px;
+    letter-spacing: 4px;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.section8_para {
+    font-weight: 100;
+    margin-top: -10px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: normal;
+}
+
+.section9 {
+    position: relative;
+}
+
+.facility_on_mars {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section9_text {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -750px;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.section9_para {
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: -30px;
+}
+
+.section10_parent_div {
+    display: flex;
+    position: relative;
+}
+
+.delevring_highspeed_internet_video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section10_text {
+    position: absolute;
+    line-height: 50px;
+    margin-top: 300px;
+    margin-left: 90px;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.section10_para {
+    font-weight: 100;
+    margin-top: -30px;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: normal;
+}
+
+.section10_button {
+    margin-top: 15px;
+    border-radius: 5px;
+    display: inline flex;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 100;
+    background: transparent;
+    color: white;
+    padding: 18px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.341);
+    transition: all 0.3s ease;
+}
+
+.section10_button:hover {
+    background-color: white;
+    color: black;
+}
+
+.section10_button:hover svg path {
+    fill: black;
+}
+
+.section11 {
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section11_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr_footer {
+    opacity: 70%;
+    height: 170px;
+    border-left: 1px solid white;
+    margin-top: 80px;
+}
+
+.p1 {
+    margin-top: 30px;
+    color: white;
+    opacity: 50%;
+    font-size: 14px;
+}
+
+.p2 {
+    margin-top: 1px;
+    color: white;
+    font-size: 14px;
+}
+
+footer {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.x_logo_button {
+    margin-top: 15px;
+    border-radius: 100px;
+    display: inline flex;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 100;
+    background: rgba(255, 255, 255, 0.091);
+    color: white;
+    padding: 20px 20px;
+    border: none;
+}
+
+.footer-center {
+    display: flex;
+    gap: 35px;
+}
+
+.footer-left,
+.footer-right,
+.footer-center span {
+    cursor: pointer;
+}
+
+.footer-left {
+    margin-left: 30px;
+}
+
+.footer-right {
+    margin-right: 30px;
+}
+
+.footer_button {
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline flex;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 100;
+    background: transparent;
+    color: white;
+    padding: 18px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.341);
+    transition: all 0.3s ease;
+}
+
+.footer_button:hover {
+    background-color: white;
+    color: black;
+}
+
+.number_section {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers {
+    display: flex;
+    gap: 180px;
+}
+
+.number_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  color: white;
+  font-size: 140px;
+}
+
+.label {
+  color: white;
+  font-size: 20px;
+  margin-top: 8px;
+  opacity: 0.8;
+}
