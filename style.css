@@ -51,6 +51,7 @@ body {
     width: 8.75rem;
     height: auto;
     fill: white;
+    cursor: pointer;
 }
 
 .header_button {
@@ -650,6 +651,7 @@ footer {
     color: white;
     padding: 1.25rem 1.25rem;
     border: none;
+    cursor: pointer;
 }
 
 .footer-center {
